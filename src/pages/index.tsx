@@ -15,6 +15,10 @@ export default function Home() {
       <h1 className='text-5xl font-bold underline text-center mt-5'>
         Underconstruction
       </h1>
+      <ul className='text-center mt-10'>
+        <li>Tailwind</li>
+        <li>Formik & Yup</li>
+      </ul>
     </>
   );
 }
