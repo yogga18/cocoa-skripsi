@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
+import LandingPage from './landing-page';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,9 +18,17 @@ export default function Home() {
         Underconstruction
       </h1>
       <ul className='text-center mt-10'>
-        <li>Tailwind</li>
-        <li>Formik & Yup</li>
+        <li>
+          <Link href='/auth/login'>Login</Link>
+        </li>
+        <li>
+          <Link href='/auth/register'>Register</Link>{' '}
+        </li>
+        <li>
+          <Link href='/about'>About</Link>{' '}
+        </li>
       </ul>
+      <LandingPage />
     </>
   );
 }
