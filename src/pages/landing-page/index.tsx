@@ -1,8 +1,12 @@
+import NavigationBar from '@/Components/Navigation';
+import { Fragment } from 'react';
+
 const LandingPage = () => {
   return (
-    <div>
-      <h1>LandingPage</h1>
-    </div>
+    <Fragment>
+      <NavigationBar />
+      <p className='text-center'>oaihsdi</p>
+    </Fragment>
   );
 };
 
