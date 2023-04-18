@@ -10,10 +10,10 @@ const MobileNav = () => {
 
   return (
     <div className='flex md:hidden justify-end items-center p-3 border-b border-gray-700'>
-      <div
+      {/* <div
         onClick={handleOpen}
         className='bg-transparent absolute w-full h-full inset-0'
-      ></div>
+      ></div> */}
       <button className='focus:outline-none' onClick={handleOpen}>
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -32,6 +32,7 @@ const MobileNav = () => {
         <div className='bg-white absolute right-0 mr-12 top-0 mt-4 py-1 rounded-lg w-56 overflow-hidden'>
           <MobileNavLink href={'/'}>Home</MobileNavLink>
           <MobileNavLink href={'/cocoa'}>Cocoa</MobileNavLink>
+          <MobileNavLink href={'/datasains'}>Data Sains</MobileNavLink>
         </div>
       )}
     </div>

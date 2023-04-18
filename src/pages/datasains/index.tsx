@@ -1,13 +1,13 @@
 import NavigationBar from '@/Components/Navigation';
 import React, { Fragment } from 'react';
 
-const Cocoa = () => {
+const DataSains = () => {
   return (
     <Fragment>
       <NavigationBar flag={false} />
-      <p className='text-center'>Cocoa</p>
+      <p>DataSains</p>
     </Fragment>
   );
 };
 
-export default Cocoa;
+export default DataSains;
