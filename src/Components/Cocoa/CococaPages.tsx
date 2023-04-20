@@ -13,7 +13,7 @@ const CococaPages = () => {
     <Fragment>
       <p className='text-center my-2'>Keadaan Komoditas Kakao di Indonesia</p>
       <div
-        className='grid lg:grid-cols-2 md:grid-cols-1 gap-3 px-2 cursor-pointer'
+        className='grid lg:grid-cols-2 md:grid-cols-1 gap-3 px-2'
         onClick={handleChange}
       >
         <div className='p-3'>
@@ -28,7 +28,7 @@ const CococaPages = () => {
             layout='responsive'
           />
         </div>
-        <div className='p-3 shadow shadow-slate-300 rounded flex flex-col justify-center align-middle'>
+        <div className='p-3 shadow shadow-slate-300 rounded flex flex-col justify-center align-middle cursor-pointer hover:bg-[#fdfae7] transition-all duration-150'>
           <br />
           {flag && (
             <div>
